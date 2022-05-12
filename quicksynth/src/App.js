@@ -2,13 +2,11 @@ import { playControl, stopControl } from "./inputControl";
 
 const App = () => {
 
-  window.addEventListener('keydown', playControl)
-  window.addEventListener('keyup', stopControl)
+  document.addEventListener('keydown', playControl)
+  document.addEventListener('keyup', stopControl)
 
   return (
-  <div>
-    <h1>QUICKSYNTH</h1>
-  </div>
+    <div>QUICKSYNTH</div>
   )
 }
 
