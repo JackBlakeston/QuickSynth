@@ -1,7 +1,7 @@
 // import { playSynth } from "./synth";
 
-import { keyboardMappings } from "./keyboardMappings";
-import { noteFrequencies } from "./noteFrequencies";
+import { keyboardMappings } from "./utils/keyboardMappings";
+import { noteFrequencies } from "./utils/noteFrequencies";
 import { playNote } from "./synth";
 
 const activeNotes = {};
