@@ -4,9 +4,7 @@ import { keyboardMappings } from "./keyboardMappings";
 import { noteFrequencies } from "./noteFrequencies";
 import { playNote } from "./synth";
 
-const activeNotes = {
-
-}
+const activeNotes = {};
 
 export const playControl = (event) => {
   const key = event.key;

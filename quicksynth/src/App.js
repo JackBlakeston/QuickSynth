@@ -1,10 +1,15 @@
-import Instrument from "./components/Instrument";
 import { playControl, stopControl } from "./inputControl";
 
-export default function App() {
+const App = () => {
 
   window.addEventListener('keydown', playControl)
   window.addEventListener('keyup', stopControl)
 
-  return <Instrument/>
+  return (
+  <div>
+    <h1>QUICKSYNTH</h1>
+  </div>
+  )
 }
+
+export default App;
